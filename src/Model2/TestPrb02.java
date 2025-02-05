@@ -106,6 +106,7 @@ public class TestPrb02 {
                 }
                 System.out.println(processItem.getText());
 
+                //eliminam extensiile de aici, cu last index of "."
                 for(int i=0;i<linii.length;i++){
                     if(linii[i]!=null) {
                         int dotIndex = linii[i].lastIndexOf(".");
